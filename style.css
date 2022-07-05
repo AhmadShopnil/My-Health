@@ -1,7 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    font-display: ;
+
+}
+
+header {
+    background: black;
+    margin-top: -22px;
+    height: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.head h2 {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+
 }
 
 h1 {
@@ -55,6 +70,7 @@ p {
 
 .orange {
     color: orangered;
+    font-size: 80px
 }
 
 .sec-2 {
@@ -73,8 +89,8 @@ p {
 .sec-1 {
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .sec-2 img {
@@ -106,7 +122,7 @@ p {
 }
 
 .box2 {
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px black;
 
     padding: 20px;
     margin-left: 0.5%;
@@ -151,4 +167,16 @@ p {
 
 .sec-4 h2 {
     font-weight: bolder
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+
 }
